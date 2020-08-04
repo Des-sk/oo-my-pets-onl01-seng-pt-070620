@@ -28,7 +28,7 @@ class Owner
   end
 
   def cats 
-  Cat.all do |cats|
+  Cat.all 
  
   end
 end
