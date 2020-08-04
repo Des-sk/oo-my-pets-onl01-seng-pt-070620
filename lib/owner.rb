@@ -28,9 +28,10 @@ class Owner
   end
 
   def cats 
-  Cat.all 
- 
+  Cat.all {|cats|Cat.self}
+  cats<< self
   end
 end
+
 end
 
