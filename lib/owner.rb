@@ -55,12 +55,10 @@ class Owner
    pets = self.dogs + self.cats
    
    pets.each do |p| 
-   pet.mood= "nervous"
-   pet.owner= nil
+   pets.mood= "nervous"
+   pets.owner= nil
 end 
-  # self.dogs.each {|dog|dog.mood = "nervous"}
-  # self.cats.each{|cat| cat.mood= "nervous"}
-  # [dogs, cats].each {|o| o.self= nil}
+ 
  end
  
 end
