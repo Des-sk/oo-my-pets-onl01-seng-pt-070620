@@ -28,8 +28,7 @@ class Owner
   end
 
   def cats 
-  Cat.all.each {|cats|Cat.name}
-  
+  Cat.all.select{|cat| cat.owner}
   cats<< self
   end
 
