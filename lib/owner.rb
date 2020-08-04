@@ -56,6 +56,7 @@ class Owner
    
    pets.each do |p| 
    pet.mood= "nervous"
+   pet.owner= nil
    
   # self.dogs.each {|dog|dog.mood = "nervous"}
   # self.cats.each{|cat| cat.mood= "nervous"}
