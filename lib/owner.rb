@@ -52,7 +52,9 @@ class Owner
  end
  
  def sell_pets
+   self.cats.each{
  
  end
-
+ fido = Dog.new("Fido", @owner)
+        tabby = Cat.new("Tabby", @owner)
 end
