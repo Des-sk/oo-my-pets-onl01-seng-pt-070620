@@ -52,7 +52,7 @@ class Owner
  end
  
  def sell_pets
-   self.cats.each{
+   self.dogs.each {|dog|dog.mood = "happy"}
  
  end
  fido = Dog.new("Fido", @owner)
