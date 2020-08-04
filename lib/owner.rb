@@ -31,7 +31,6 @@ def cats
   Cat.all {|cats|==self}
   
 end
-end
-
 
 end
+
