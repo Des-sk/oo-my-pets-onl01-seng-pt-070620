@@ -37,6 +37,7 @@ class Owner
   
   def buy_cat(cat)
     Cat.all.count 
+    cat.all
   end
 
 
