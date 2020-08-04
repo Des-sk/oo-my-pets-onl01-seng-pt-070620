@@ -28,8 +28,8 @@ class Owner
   end
 
   def cats 
-  Cat.all 
-  
+  Cat.all do |cats|
+    cats==cat.self
   end
 
 end
