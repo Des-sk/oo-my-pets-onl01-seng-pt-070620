@@ -52,7 +52,7 @@ class Owner
  end
  
  def sell_pets
-   [dogs, cats].each {|o| o.owner = [nil]}
+   [dogs, cats].each {|o| o.owner.clear}
  end
  
 end
