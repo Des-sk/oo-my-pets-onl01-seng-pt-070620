@@ -29,6 +29,7 @@ class Owner
 
   def cats 
   Cat.all.each {|cats|Cat.name}
+  
   cats<< self
   end
 
