@@ -31,7 +31,7 @@ class Owner
   Cat.all {|cats|Cat.self}
   cats<< self
   end
-end
+
 
 end
 
