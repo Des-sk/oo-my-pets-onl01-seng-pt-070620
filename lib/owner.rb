@@ -31,6 +31,6 @@ class Owner
   Cat.all do |cats|
  
   end
-
+end
 end
 
